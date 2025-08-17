@@ -1,0 +1,69 @@
+.container {
+  width: 300px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #eef1f1;
+  border-radius: 50px;
+  box-shadow: 20px 2dvb 20px 20px rgba(167, 126, 126, 0.2);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  color: #0a0a0a;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container:hover {
+}
+
+.container input {
+  width: 80%;
+  padding: 12px;
+  margin: 13px;
+  border: 2px solid rgb(162, 159, 159);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+#submit {
+  width: 85%;
+  padding: 12px;
+  background: linear-gradient(rgb(28, 129, 176), rgb(9, 145, 235));
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+#submit:hover {
+  background: linear-gradient(
+    rgb(26, 7, 242),
+    rgb(30, 123, 205)
+  ); /* red → orange */
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background: linear-gradient(180deg, rgb(6, 6, 216), rgb(92, 26, 213));
+  min-height: 100vh;
+  margin: 0;
+}
+#code {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+#code:hover {
+  color: rgb(2, 2, 23);
+}
+
+p {
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
